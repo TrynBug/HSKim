@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ec0c127d-aea5-44ed-8cb4-b19c0f9ef12c": {
+      "ProjectGuid": "ec0c127d-aea5-44ed-8cb4-b19c0f9ef12c",
+      "DisplayName": "GameNetServer",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
