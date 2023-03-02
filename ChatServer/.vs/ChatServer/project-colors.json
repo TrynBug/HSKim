@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7f27e994-74de-4ab5-9c4f-0af46f6a5070": {
+      "ProjectGuid": "7f27e994-74de-4ab5-9c4f-0af46f6a5070",
+      "DisplayName": "ChatServer",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

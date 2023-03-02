@@ -13,54 +13,51 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\NetServer">
-      <UniqueIdentifier>{35cc7de3-c350-4bc8-893e-7d99789c70b9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Tools">
-      <UniqueIdentifier>{2266e3e1-50d6-415f-810c-694beecb2bcf}</UniqueIdentifier>
+    <Filter Include="소스 파일\netserver">
+      <UniqueIdentifier>{8afc4a3d-2c21-49f0-8d3c-e3a94c72c536}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CNetServer.h">
-      <Filter>소스 파일\NetServer</Filter>
+    <ClInclude Include="netserver\CLockfreeQueue.h">
+      <Filter>소스 파일\netserver</Filter>
     </ClInclude>
-    <ClInclude Include="CSession.h">
-      <Filter>소스 파일\NetServer</Filter>
+    <ClInclude Include="netserver\CLockfreeStack.h">
+      <Filter>소스 파일\netserver</Filter>
     </ClInclude>
-    <ClInclude Include="CLockfreeQueue.h">
-      <Filter>소스 파일\Tools</Filter>
+    <ClInclude Include="netserver\CMemoryPool.h">
+      <Filter>소스 파일\netserver</Filter>
     </ClInclude>
-    <ClInclude Include="CLockfreeStack.h">
-      <Filter>소스 파일\Tools</Filter>
+    <ClInclude Include="netserver\CMemoryPoolTLS.h">
+      <Filter>소스 파일\netserver</Filter>
     </ClInclude>
-    <ClInclude Include="CMemoryPool.h">
-      <Filter>소스 파일\Tools</Filter>
+    <ClInclude Include="netserver\CNetServer.h">
+      <Filter>소스 파일\netserver</Filter>
     </ClInclude>
-    <ClInclude Include="CPacket.h">
-      <Filter>소스 파일\Tools</Filter>
+    <ClInclude Include="netserver\CPacket.h">
+      <Filter>소스 파일\netserver</Filter>
     </ClInclude>
-    <ClInclude Include="CRingbuffer.h">
-      <Filter>소스 파일\Tools</Filter>
+    <ClInclude Include="netserver\CRingbuffer.h">
+      <Filter>소스 파일\netserver</Filter>
     </ClInclude>
-    <ClInclude Include="defineNetwork.h">
-      <Filter>소스 파일\NetServer</Filter>
+    <ClInclude Include="netserver\CSession.h">
+      <Filter>소스 파일\netserver</Filter>
     </ClInclude>
-    <ClInclude Include="CMemoryPoolTLS.h">
-      <Filter>소스 파일\Tools</Filter>
+    <ClInclude Include="netserver\defineNetwork.h">
+      <Filter>소스 파일\netserver</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CNetServer.cpp">
-      <Filter>소스 파일\NetServer</Filter>
+    <ClCompile Include="netserver\CNetServer.cpp">
+      <Filter>소스 파일\netserver</Filter>
     </ClCompile>
-    <ClCompile Include="CSession.cpp">
-      <Filter>소스 파일\NetServer</Filter>
+    <ClCompile Include="netserver\CPacket.cpp">
+      <Filter>소스 파일\netserver</Filter>
     </ClCompile>
-    <ClCompile Include="CPacket.cpp">
-      <Filter>소스 파일\Tools</Filter>
+    <ClCompile Include="netserver\CRingbuffer.cpp">
+      <Filter>소스 파일\netserver</Filter>
     </ClCompile>
-    <ClCompile Include="CRingbuffer.cpp">
-      <Filter>소스 파일\Tools</Filter>
+    <ClCompile Include="netserver\CSession.cpp">
+      <Filter>소스 파일\netserver</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -16,122 +16,140 @@
     <Filter Include="소스 파일\01. ChatServer">
       <UniqueIdentifier>{784db832-29d7-4bf5-ba64-f79378231dde}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\02. LAN">
+    <Filter Include="소스 파일\02. Network">
+      <UniqueIdentifier>{b74f6bb4-ee05-402e-bf5d-a4100aa259b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. LAN">
       <UniqueIdentifier>{c0bedeb6-a9d7-441c-ab8d-d85ece6e40c1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\03. DB">
+    <Filter Include="소스 파일\04. DB">
       <UniqueIdentifier>{7e640406-abf8-40cd-96ef-97c852f24c79}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\04. Tools">
+    <Filter Include="소스 파일\05. Tools">
       <UniqueIdentifier>{550877f7-369d-43ff-92fc-a423b8d3b365}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\main.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\CChatServer.cpp">
+    <ClCompile Include="CChatServer.cpp">
       <Filter>소스 파일\01. ChatServer</Filter>
     </ClCompile>
-    <ClCompile Include="..\CPlayer.cpp">
+    <ClCompile Include="CCpuUsage.cpp">
+      <Filter>소스 파일\05. Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="CCrashDump.cpp">
+      <Filter>소스 파일\05. Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="CDBAsyncWriter.cpp">
+      <Filter>소스 파일\04. DB</Filter>
+    </ClCompile>
+    <ClCompile Include="CDBConnector.cpp">
+      <Filter>소스 파일\04. DB</Filter>
+    </ClCompile>
+    <ClCompile Include="CJsonParser.cpp">
+      <Filter>소스 파일\05. Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="CLANClient.cpp">
+      <Filter>소스 파일\03. LAN</Filter>
+    </ClCompile>
+    <ClCompile Include="CLANClientMonitoring.cpp">
+      <Filter>소스 파일\03. LAN</Filter>
+    </ClCompile>
+    <ClCompile Include="CPDH.cpp">
+      <Filter>소스 파일\05. Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
       <Filter>소스 파일\01. ChatServer</Filter>
     </ClCompile>
-    <ClCompile Include="..\CSector.cpp">
+    <ClCompile Include="CSector.cpp">
       <Filter>소스 파일\01. ChatServer</Filter>
     </ClCompile>
-    <ClCompile Include="..\CLANClient.cpp">
-      <Filter>소스 파일\02. LAN</Filter>
+    <ClCompile Include="logger.cpp">
+      <Filter>소스 파일\05. Tools</Filter>
     </ClCompile>
-    <ClCompile Include="..\CLANClientMonitoring.cpp">
-      <Filter>소스 파일\02. LAN</Filter>
+    <ClCompile Include="profiler.cpp">
+      <Filter>소스 파일\05. Tools</Filter>
     </ClCompile>
-    <ClCompile Include="..\CDBAsyncWriter.cpp">
-      <Filter>소스 파일\03. DB</Filter>
+    <ClCompile Include="CPacket.cpp">
+      <Filter>소스 파일\05. Tools</Filter>
     </ClCompile>
-    <ClCompile Include="..\CDBConnector.cpp">
-      <Filter>소스 파일\03. DB</Filter>
-    </ClCompile>
-    <ClCompile Include="..\CCpuUsage.cpp">
-      <Filter>소스 파일\04. Tools</Filter>
-    </ClCompile>
-    <ClCompile Include="..\CCrashDump.cpp">
-      <Filter>소스 파일\04. Tools</Filter>
-    </ClCompile>
-    <ClCompile Include="..\CJsonParser.cpp">
-      <Filter>소스 파일\04. Tools</Filter>
-    </ClCompile>
-    <ClCompile Include="..\CPDH.cpp">
-      <Filter>소스 파일\04. Tools</Filter>
-    </ClCompile>
-    <ClCompile Include="..\logger.cpp">
-      <Filter>소스 파일\04. Tools</Filter>
-    </ClCompile>
-    <ClCompile Include="..\profiler.cpp">
-      <Filter>소스 파일\04. Tools</Filter>
+    <ClCompile Include="CRingbuffer.cpp">
+      <Filter>소스 파일\05. Tools</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\CChatServer.h">
+    <ClInclude Include="CChatServer.h">
       <Filter>소스 파일\01. ChatServer</Filter>
     </ClInclude>
-    <ClInclude Include="..\CPlayer.h">
+    <ClInclude Include="CCpuUsage.h">
+      <Filter>소스 파일\05. Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CCrashDump.h">
+      <Filter>소스 파일\05. Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CDBAsyncWriter.h">
+      <Filter>소스 파일\04. DB</Filter>
+    </ClInclude>
+    <ClInclude Include="CDBConnector.h">
+      <Filter>소스 파일\04. DB</Filter>
+    </ClInclude>
+    <ClInclude Include="CJsonParser.h">
+      <Filter>소스 파일\05. Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CLANClient.h">
+      <Filter>소스 파일\03. LAN</Filter>
+    </ClInclude>
+    <ClInclude Include="CLANClientMonitoring.h">
+      <Filter>소스 파일\03. LAN</Filter>
+    </ClInclude>
+    <ClInclude Include="CLockfreeQueue.h">
+      <Filter>소스 파일\05. Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CMemoryPool.h">
+      <Filter>소스 파일\05. Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CMemoryPoolTLS.h">
+      <Filter>소스 파일\05. Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonProtocol.h">
       <Filter>소스 파일\01. ChatServer</Filter>
     </ClInclude>
-    <ClInclude Include="..\CSector.h">
+    <ClInclude Include="CPDH.h">
+      <Filter>소스 파일\05. Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
       <Filter>소스 파일\01. ChatServer</Filter>
     </ClInclude>
-    <ClInclude Include="..\defineChatServer.h">
+    <ClInclude Include="CSector.h">
       <Filter>소스 파일\01. ChatServer</Filter>
     </ClInclude>
-    <ClInclude Include="..\CLANClient.h">
-      <Filter>소스 파일\02. LAN</Filter>
+    <ClInclude Include="defineChatServer.h">
+      <Filter>소스 파일\01. ChatServer</Filter>
     </ClInclude>
-    <ClInclude Include="..\CLANClientMonitoring.h">
-      <Filter>소스 파일\02. LAN</Filter>
+    <ClInclude Include="defineLANClient.h">
+      <Filter>소스 파일\03. LAN</Filter>
     </ClInclude>
-    <ClInclude Include="..\defineLANClient.h">
-      <Filter>소스 파일\02. LAN</Filter>
+    <ClInclude Include="logger.h">
+      <Filter>소스 파일\05. Tools</Filter>
     </ClInclude>
-    <ClInclude Include="..\CDBAsyncWriter.h">
-      <Filter>소스 파일\03. DB</Filter>
+    <ClInclude Include="profiler.h">
+      <Filter>소스 파일\05. Tools</Filter>
     </ClInclude>
-    <ClInclude Include="..\CDBConnector.h">
-      <Filter>소스 파일\03. DB</Filter>
+    <ClInclude Include="CRingbuffer.h">
+      <Filter>소스 파일\05. Tools</Filter>
     </ClInclude>
-    <ClInclude Include="..\CCpuUsage.h">
-      <Filter>소스 파일\04. Tools</Filter>
+    <ClInclude Include="netserver\CNetServer.h">
+      <Filter>소스 파일\02. Network</Filter>
     </ClInclude>
-    <ClInclude Include="..\CCrashDump.h">
-      <Filter>소스 파일\04. Tools</Filter>
-    </ClInclude>
-    <ClInclude Include="..\CJsonParser.h">
-      <Filter>소스 파일\04. Tools</Filter>
-    </ClInclude>
-    <ClInclude Include="..\CLockfreeQueue.h">
-      <Filter>소스 파일\04. Tools</Filter>
-    </ClInclude>
-    <ClInclude Include="..\CMemoryPool.h">
-      <Filter>소스 파일\04. Tools</Filter>
-    </ClInclude>
-    <ClInclude Include="..\CMemoryPoolTLS.h">
-      <Filter>소스 파일\04. Tools</Filter>
-    </ClInclude>
-    <ClInclude Include="..\CommonProtocol.h">
-      <Filter>소스 파일\04. Tools</Filter>
-    </ClInclude>
-    <ClInclude Include="..\CPDH.h">
-      <Filter>소스 파일\04. Tools</Filter>
-    </ClInclude>
-    <ClInclude Include="..\logger.h">
-      <Filter>소스 파일\04. Tools</Filter>
-    </ClInclude>
-    <ClInclude Include="..\profiler.h">
-      <Filter>소스 파일\04. Tools</Filter>
+    <ClInclude Include="CPacket.h">
+      <Filter>소스 파일\05. Tools</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\chat_server_config.json">
-      <Filter>소스 파일\04. Tools</Filter>
+    <None Include="chat_server_config.json">
+      <Filter>소스 파일\01. ChatServer</Filter>
     </None>
   </ItemGroup>
 </Project>

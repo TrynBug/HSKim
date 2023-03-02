@@ -18,6 +18,23 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="netserver\CLockfreeQueue.h" />
+    <ClInclude Include="netserver\CLockfreeStack.h" />
+    <ClInclude Include="netserver\CMemoryPool.h" />
+    <ClInclude Include="netserver\CMemoryPoolTLS.h" />
+    <ClInclude Include="netserver\CNetServer.h" />
+    <ClInclude Include="netserver\CPacket.h" />
+    <ClInclude Include="netserver\CRingbuffer.h" />
+    <ClInclude Include="netserver\CSession.h" />
+    <ClInclude Include="netserver\defineNetwork.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="netserver\CNetServer.cpp" />
+    <ClCompile Include="netserver\CPacket.cpp" />
+    <ClCompile Include="netserver\CRingbuffer.cpp" />
+    <ClCompile Include="netserver\CSession.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -112,6 +129,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -129,6 +147,9 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -138,23 +159,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="CLockfreeQueue.h" />
-    <ClInclude Include="CLockfreeStack.h" />
-    <ClInclude Include="CMemoryPool.h" />
-    <ClInclude Include="CMemoryPoolTLS.h" />
-    <ClInclude Include="CNetServer.h" />
-    <ClInclude Include="CPacket.h" />
-    <ClInclude Include="CRingbuffer.h" />
-    <ClInclude Include="CSession.h" />
-    <ClInclude Include="defineNetwork.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="CNetServer.cpp" />
-    <ClCompile Include="CPacket.cpp" />
-    <ClCompile Include="CRingbuffer.cpp" />
-    <ClCompile Include="CSession.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
