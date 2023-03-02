@@ -7,7 +7,7 @@
 - GameServer
 - MonitoringServer
 <!-- end of the list -->
-<sub>&nbsp;&nbsp;&nbsp;(주의: 실행하기 위해서는 Redis 서버, MySQL DB가 필요하기 때문에 소스코드만으로는 정상적으로 실행되지 않습니다.)</sub>
+<sub>&nbsp;&nbsp;&nbsp;(주의: 서버를 실행하기 위해서는 Redis 서버, MySQL DB가 필요하기 때문에 소스코드만으로는 정상적으로 실행되지 않습니다.)</sub>
 
 #### 02. IOCP 네트워크 라이브러리
 #### 03. 게임 컨텐츠 전용 IOCP 네트워크 라이브러리
