@@ -2,9 +2,21 @@
 # 이 .gitignore 파일은 Microsoft(R) Visual Studio에서 자동으로 만들어졌습니다.
 ################################################################################
 
-/ChatServer/.vs/ChatServer/v17
-/NetServer/.vs/NetServer
-/NetServer/NetServer/x64
-/NetServer/x64
-/ChatServer/ChatServer/x64
-/ChatServer/x64
+/01. MMO 게임 서버/ChatServer/.vs/ChatServer
+/01. MMO 게임 서버/ChatServer/x64
+/02. IOCP 네트워크 라이브러리/NetServer/NetServer/x64
+/02. IOCP 네트워크 라이브러리/NetServer/.vs/NetServer
+/02. IOCP 네트워크 라이브러리/NetServer/x64
+/01. MMO 게임 서버/ChatServer/ChatServer/x64
+/01. MMO 게임 서버/GameServer/.vs/GameServer/v17
+/01. MMO 게임 서버/GameServer/GameServer/x64
+/01. MMO 게임 서버/GameServer/x64
+/01. MMO 게임 서버/LoginServer/.vs/LoginServer
+/01. MMO 게임 서버/LoginServer/LoginServer/x64
+/01. MMO 게임 서버/LoginServer/x64
+/01. MMO 게임 서버/MonitoringServer/.vs/MonitoringServer
+/01. MMO 게임 서버/MonitoringServer/MonitoringServer/x64
+/01. MMO 게임 서버/MonitoringServer/x64
+/03. 게임 컨텐츠 전용 IOCP 네트워크 라이브러리/GameNetServer/.vs/GameNetServer/v17
+/03. 게임 컨텐츠 전용 IOCP 네트워크 라이브러리/GameNetServer/GameNetServer/x64
+/03. 게임 컨텐츠 전용 IOCP 네트워크 라이브러리/GameNetServer/x64

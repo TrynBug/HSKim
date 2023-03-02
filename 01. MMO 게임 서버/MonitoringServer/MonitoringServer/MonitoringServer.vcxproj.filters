@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\01. MonitoringServer">
+      <UniqueIdentifier>{ff6d955c-7031-4aa5-9513-8bb5b77c0dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Network">
+      <UniqueIdentifier>{5c53f081-b253-4efb-92e2-1fdc37d613c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. DB">
+      <UniqueIdentifier>{3f448dfb-e7ad-414d-a2a8-7e1c1dbcf0ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Tools">
+      <UniqueIdentifier>{2a87d500-5c5c-4193-bacc-af5ea3490935}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CCrashDump.cpp">
+      <Filter>소스 파일\04. Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="CDBConnector.cpp">
+      <Filter>소스 파일\03. DB</Filter>
+    </ClCompile>
+    <ClCompile Include="CJsonParser.cpp">
+      <Filter>소스 파일\04. Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonitoringServer.cpp">
+      <Filter>소스 파일\01. MonitoringServer</Filter>
+    </ClCompile>
+    <ClCompile Include="logger.cpp">
+      <Filter>소스 파일\04. Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="CUser.cpp">
+      <Filter>소스 파일\01. MonitoringServer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CCrashDump.h">
+      <Filter>소스 파일\04. Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CDBConnector.h">
+      <Filter>소스 파일\03. DB</Filter>
+    </ClInclude>
+    <ClInclude Include="CJsonParser.h">
+      <Filter>소스 파일\04. Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CLockfreeQueue.h">
+      <Filter>소스 파일\04. Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CMemoryPool.h">
+      <Filter>소스 파일\04. Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CMemoryPoolTLS.h">
+      <Filter>소스 파일\04. Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonitoringServer.h">
+      <Filter>소스 파일\01. MonitoringServer</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonProtocol.h">
+      <Filter>소스 파일\01. MonitoringServer</Filter>
+    </ClInclude>
+    <ClInclude Include="defineMonitoringServer.h">
+      <Filter>소스 파일\01. MonitoringServer</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>소스 파일\04. Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="netserver\CNetServer.h">
+      <Filter>소스 파일\02. Network</Filter>
+    </ClInclude>
+    <ClInclude Include="CUser.h">
+      <Filter>소스 파일\01. MonitoringServer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="monitoring_server_config.json">
+      <Filter>소스 파일\01. MonitoringServer</Filter>
+    </None>
+  </ItemGroup>
+</Project>
